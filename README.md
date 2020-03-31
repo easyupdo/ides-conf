@@ -1,2 +1,2 @@
 # ides-conf
-常用ide配置
+常用ide通用配置
