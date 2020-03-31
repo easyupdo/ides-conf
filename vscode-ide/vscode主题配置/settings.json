@@ -1,0 +1,31 @@
+{
+    "terminal.integrated.cursorStyle": "line",
+    "clang.cxxflags": [
+        "-std=c++11"
+    ],
+    //"workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#2c2c2c",
+        "statusBar.noFolderBackground" : "#252525",
+        "statusBar.debuggingBackground": "#462929",
+        "editor.lineHighlightBackground": "#363636"
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "window.zoomLevel": 0,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+    "debug.enableAllHovers": true,
+    "debug.inlineValues": true,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "files.autoGuessEncoding": true,
+    "editor.renderLineHighlight": "all",
+    "editor.suggest.insertHighlight": true
+}

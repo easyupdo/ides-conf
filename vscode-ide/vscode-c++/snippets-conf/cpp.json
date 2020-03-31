@@ -1,0 +1,93 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	 "CPP": {
+	 	"prefix": "cpp-fileheader",
+	 	"body": [
+	 		//"console.log('$1');",
+			 //"$2"
+			 "/**"
+			 "* @file $TM_FILENAME"
+			 //"* @brief 简介"
+			 //"* @details 细节"
+			 //"* @mainpage 工程概览"
+			 "* @author Jay"
+			 "* @email guanxiaojie@up366.com"
+			 //"* @version 版本号"
+ 			 "* @date $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND"
+ 			 //"* @license 版权"
+ 			 "*/"
+
+			 "#include <iostream>"
+			 "using namespace std;"
+		 ],
+	 	"description": "cpp fileheader"
+	 },
+	 "FUN-COMMENT":{
+		 "prefix":"cpp-fun-comment",
+		 "body":[
+			"/**"
+ 	  		"* @brief 函数简介"
+			"*"
+ 			//"* @param 形参 参数说明"
+ 			"* @param ${1|int,float,double,std::stirng,bool|}"
+ 			"* @return $2//返回说明"
+			 "*   @retval $3//返回值说明"
+			//" * @note 注解"
+			//"* @attention 注意"
+			//"* @warning 警告"
+			//"* @exception 异常"
+ 			"*/"
+		 ],
+	 	"description": "cpp fun comment"
+	 },
+	 "CLASS-COMMENT":{
+		 "prefix":"cpp-class-comment",
+		 "body":[
+			"/**"
+			"* @brief $1"//类的简单概述"
+			"* 类的详细概述"
+ 			"*/"
+		 ],
+	 	"description": "cpp class comment"
+	 },
+	 "C++-C-MIXED":{
+		 "prefix": "cpp-c-mixed",
+		 "body": [
+			"#ifdef __cplusplus"
+			"extern C {"
+			"#endif"
+			"//代码"
+			
+			"#ifdef __cplusplus"
+			"}"
+			"#endif"
+		 ],
+	 	"description": "cpp c mixed program"
+	 },
+	 "C++-MACRO-CONDITIONAL-COMPILATION":{
+		 "prefix": "cpp-macro-Conditional-compilation",
+		 "body": [
+			"#ifdef $1"
+			"//CODE 1"
+			"$2"
+			"#else"
+			"//CODE 2"
+			"$3"
+			"#endif"
+		 ],
+	 	"description": "cpp conditional compilation"
+	 },
+	 "C++-MACRO-FIRST-DEFINE":{
+		 "prefix": "cpp-macro-first-define",
+		 "body": [
+			 "#ifndef $1"
+			 "#define $2"
+			 "#endif"
+		 ],
+	 	"description": "cpp c mixed program"
+	 },
+}
