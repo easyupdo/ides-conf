@@ -1,0 +1,9 @@
+{
+    "//":"使用单引号",
+    "singleQuote":true,
+    "//":"不在行尾添加‘;’",
+    "semi":false,    
+    "//":"//取消该项 不然在行尾会添加一个‘,’",    
+    "trailingComma": "none"  
+
+}
